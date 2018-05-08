@@ -1,5 +1,10 @@
 
 
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
 body {
     background-color:#777; 
     text-align: center;
@@ -9,7 +14,7 @@ body {
 }
 
 .content {
-    margin: auto;
+    margin: 0 auto;
     max-width: 960px
 }
 
@@ -34,7 +39,7 @@ body {
     float: left;
     background-color: #777;
     padding: 30px;
-    width: 90%;
+    width: 100%;
 }
 
 #headings, #paragraph {
@@ -47,11 +52,11 @@ body {
 .aside {
     color: #777;
     background-color: #ebebeb;
-    padding: 40px;
-    width: 300px;
+    padding: 180px;
+    width: 47.5%;
     float:left;
-    margin-left: 10px;
-    height: 350px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .footer {
